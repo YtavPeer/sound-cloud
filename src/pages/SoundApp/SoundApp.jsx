@@ -45,14 +45,14 @@ export const SoundApp = () => {
             <SoundSearch onChangeSearch={onChangeSearch}></SoundSearch>
             {
                 !songs.length ?
-                <img src={backgroundImg} alt="" /> :
+                    <img src={backgroundImg} alt="" /> :
                     <section>
                         <SoundList songs={currentSongs} isTile={isTile}></SoundList>
                         <div className="footer-btn">
                             <Pagination songsPerPage={songsPerPage} totalSongs={songs.length} paginate={paginate} currentPage={currentPage}></Pagination>
                             <div>
-                                <img className={!isTile && "in-active"} onClick={() => setTile(false)} src={list} alt="" />
-                                <img className={isTile && "in-active"} onClick={() => setTile(true)} src={tile} alt="" />
+                                <img onClick={() => setTile(false)} src={list} alt="" />
+                                <img onClick={() => setTile(true)} src={tile} alt="" />
                             </div>
                         </div>
                     </section>
@@ -61,3 +61,6 @@ export const SoundApp = () => {
     )
 }
 
+
+// className={!isTile && "in-active"}
+// className={isTile && "in-active"}

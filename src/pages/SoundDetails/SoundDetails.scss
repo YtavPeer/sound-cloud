@@ -1,5 +1,6 @@
 .sound-details {
       display: flex;
+      justify-content: center;
       background-color: #f5f5f5;
       .song-details {
             background-color: #ffffff;
@@ -51,6 +52,7 @@ audio {
 @media only screen and (max-width: 450px) {
       .sound-details{
             flex-direction: column;
+            justify-content: flex-start;
             .song-details {
                   background-color: #ffffff;
                   padding: 20px;
