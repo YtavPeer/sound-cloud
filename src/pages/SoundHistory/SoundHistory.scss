@@ -1,0 +1,24 @@
+
+
+.history-container{
+      display: flex;
+      flex-wrap: wrap;
+      list-style-type: none;
+}
+
+.history-article{
+      width: 300px;
+      height: 150px;
+      background-color: rgb(207, 206, 204);
+      color: rgba(0, 0, 0, 0.623);
+      margin: 5px;
+      cursor: pointer;
+      font-size: 2rem;
+      font-weight: 800;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover{
+            background-color:rgba(207, 206, 204, 0.377) ;
+      }
+}

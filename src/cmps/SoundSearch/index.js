@@ -1,0 +1,1 @@
+export { SoundSearch } from './SoundSearch'

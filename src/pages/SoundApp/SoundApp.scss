@@ -1,0 +1,21 @@
+
+img {
+      width: 100%;
+
+      
+      .in-active{
+            opacity: 0.3;
+      }
+
+}
+
+.footer-btn{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      img{
+            width: 30px;
+            cursor: pointer;
+            margin-inline-end: 20px;
+      }
+}

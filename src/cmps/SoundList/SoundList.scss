@@ -1,0 +1,12 @@
+.sound-list{
+      background-color: hsl(0, 0%, 95%);
+      padding-block-start: 12px;
+      padding-block-end: 12px;
+}
+
+.sound-tile{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      background-color: hsl(0, 0%, 95%);
+}

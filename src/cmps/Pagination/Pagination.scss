@@ -1,0 +1,40 @@
+.pagination {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      li, a{
+            width: 40px;
+            height: 40px;
+            background-color: rgb(255, 255, 255);
+            font-weight: 600;
+            color: #2c2b2b;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+            cursor: pointer;
+            &:hover{
+                  background-color: rgba(0, 0, 0, 0.13);
+            }
+           
+      }
+      .active{
+            background-color: brown;
+            background-color: #3b9b76;
+      }
+      .arrow{
+            width: 25px;
+            padding-inline-start: 5px;
+            margin-inline-start: 10px;
+      }
+}
+
+@media only screen and (max-width: 450px) {
+      .pagination{
+            li, a{
+                  width: 25px;
+                  height: 25px;
+            }
+      }
+}

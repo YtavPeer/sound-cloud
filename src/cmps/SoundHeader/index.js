@@ -1,0 +1,1 @@
+export { SoundHeader } from './SoundHeader'
